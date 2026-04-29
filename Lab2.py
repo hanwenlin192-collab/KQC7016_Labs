@@ -5,7 +5,7 @@ import seaborn as sns
 
 # 1. 载入数据
 # 确保文件名与你上传的完全一致
-df = pd.read_csv('WorldEnergy (1).csv')
+df = pd.read_csv('WorldEnergy .csv')
 
 # 选取几个核心变量进行分析，使结果更聚焦
 cols_of_interest = ['year', 'population', 'gdp', 'primary_energy_consumption', 'greenhouse_gas_emissions', 'carbon_intensity_elec']
